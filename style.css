@@ -1,0 +1,70 @@
+/* Базовые стили */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffd5f2;
+  color: #dd749c;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #e24480;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #fff1f9;
+  box-shadow: 0 2px 4px rgba(235, 104, 170, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f05f9b;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #e24a84;
+  margin-bottom: 10px;
+}
+
+.project {
+  background-color: white;
+  padding: 15px;
+  border-left: 4px solid #e97fc6;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(189, 83, 127, 0.253);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ddd;
+  font-size: 14px;
+}
